@@ -26,8 +26,7 @@ public Doctor(int ID , WaitingRoom  WRoom , TreatmentRoom TRoom )
         return   DocID  ; 
     }
     
-    
-    
+
     @Override
      public void run()
      
