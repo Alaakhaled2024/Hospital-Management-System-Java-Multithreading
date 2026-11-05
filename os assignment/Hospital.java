@@ -56,7 +56,7 @@ public class Hospital {
             for (Thread t : patientThreads) {
                 t.join();
             }
-
+        WR.shutdownDoctors(numberOfDoctors);
             for (Thread t : doctorThreads) {
                 t.join();
             }
